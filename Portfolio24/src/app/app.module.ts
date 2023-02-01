@@ -10,6 +10,8 @@ import { EducacionComponent } from './components/educacion/educacion.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/login/login.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
 
 
 @NgModule({
@@ -22,6 +24,8 @@ import { HomeComponent } from './components/home/home.component';
     ExperienciaComponent,
     FooterComponent,
     HomeComponent,
+    LoginComponent,
+    ProyectosComponent,
     
   ],
   imports: [
