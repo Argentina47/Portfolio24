@@ -14,6 +14,7 @@ import { LoginComponent } from './components/login/login.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { SocialComponent } from './components/social/social.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 
 @NgModule({
@@ -30,11 +31,12 @@ import { SocialComponent } from './components/social/social.component';
     ProyectosComponent,
     SkillsComponent,
     SocialComponent,
-    
-  ],
+    ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
