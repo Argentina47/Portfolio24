@@ -12,6 +12,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { SocialComponent } from './components/social/social.component';
 
 
 @NgModule({
@@ -26,6 +28,8 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
     HomeComponent,
     LoginComponent,
     ProyectosComponent,
+    SkillsComponent,
+    SocialComponent,
     
   ],
   imports: [
