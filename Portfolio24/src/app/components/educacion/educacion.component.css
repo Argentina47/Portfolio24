@@ -1,21 +1,21 @@
 .row{
-    padding: 0.5rem; }
+    padding: 5rem;}
+
+div{
+    background: #212529;
+    color: #fefefe;}
+
+h1{font-size: 4;}
 
 .card {
-    width: 10rem;
-    height: 0.5;
-    font-size: 3rem;
+    width: 15rem;
+    height: 8;
+    font-size: 2;
     float: left;
-    }
-
-    .class card {
-        width: 15rem;
-        height: 0.5;
-        font-size: 3rem;
-        float: left;   
-        }
-
-h1{
-   
-    font-size: 7rem;
 }
+
+.class card img {
+        height: 3;}
+
+    /*px no se utiliza para resposive*/
+    /*# 000 hex color - color hexadecimal*/

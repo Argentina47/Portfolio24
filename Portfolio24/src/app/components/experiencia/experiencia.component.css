@@ -1,28 +1,28 @@
 .row{
-    padding: 8rem; }
+    padding: 5rem; }
 div{
     background: #212529;
     color: #fefefe;}
 
 h1{
-    font-size: 8rem;} 
+    font-size: 4;} 
 
 h5 {
     display:inline;
     background: #212529;
-    font-size: 2rem;}
+    font-size: 2;}
 
 .class {
     background: #212529;}
 
 .card {
-    width: 45rem;
+    width: 15rem;
     height: 10;
-    font-size: 3rem;
+    font-size: 3;
     float: left;    }
 
 .class card img {
-        height: 4;}
+        height: 3;}
 
     /*px no se utiliza para resposive*/
     /*# 000 hex color - color hexadecimal*/
