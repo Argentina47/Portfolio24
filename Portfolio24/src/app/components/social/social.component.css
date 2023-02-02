@@ -14,8 +14,8 @@
 }
 
 #logoAp{
-        width: 10px;;
-        height:10px;
+        width: 100px;
+        height: 80px;
 }
 
 .btn{
@@ -31,8 +31,11 @@
     display: flex;
     flex-direction: column;
     align-items:center; 
+
 }
 .redes img{
-margin: 0.5em;
+margin: 0.5;
+width: 0.5;
+height: 5;
 }
 }
